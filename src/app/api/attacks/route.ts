@@ -7,7 +7,6 @@ export async function GET() {
       SELECT *
       FROM cowrie_commands
       ORDER BY ts DESC
-      LIMIT 20
     `;
 
     return NextResponse.json(rows);
