@@ -9,8 +9,10 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@maxmind/geoip2-node": "^6.3.4",
     "@neondatabase/serverless": "^1.0.2",
     "drizzle-orm": "^0.45.1",
+    "maxmind": "^5.0.3",
     "next": "16.1.4",
     "react": "19.2.3",
     "react-dom": "19.2.3"
